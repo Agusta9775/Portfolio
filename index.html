@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>MBAGWU AUGUSTA</title>
+</head>
+<body>
+    <div id="about">
+        <header>   
+            <div id="mySidebar" class="sidebar">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <a href="#home">Home</a>
+               <a href="#services">My Services</a>
+               <a href="#about_me">About Me</a>
+               <a href="#education">Education</a>
+               <a href="#work">Portfolio</a>
+               <a href="#my-contact--section">Contact</a>
+             </div>
+             
+             <div id="main">
+               <button class="openbtn" onclick="openNav()">&#9776; MENU</button>
+             </div>
+       </header>
+   
+          <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Augusta</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front-End Developer</p>
+        <img src="images/img.jpg" alt="" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front-End Development</h3>
+                <p>I specialize in the development of websites using the latest technologies
+                    such as
+                    HTML5, CSS3 and JavaScript. I'm particularly interested in creating
+                    responsive
+                    websites with beautiful layouts, user-friendly interfaces and a high degree of user interaction.
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Digital Marketing</h3>
+                <p>I also specialize in online advertising and marketing of products and services on social media
+                    platforms like Facebook, Instagram etc.
+                </p> 
+            </div> <!--/ service-->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about_me">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Front-End Developer</p>
+
+        <div class="about-me__body">
+            <p>My name is Mbagwu Augusta. I'm a Front-End developer with 7-months experience in Html5, Css and Bootstrap. I love everything "Tech", got an eye for 
+                building beautiful things and i keep learning everyday to be a better programmer.
+            </p>
+            <p>Ready to build your websites and get them up and running? Feel free to fill out the contact me
+                section below to reach me with your project details.
+            </p>
+        </div>
+
+        <img src="images/img3.jpg" alt="" class="about-me__img">
+    </section>
+
+    <!-- Education -->
+    <section class="my-education" id="education">
+        <h2 class="section__title section__title--education">EDUCATIONAL BACKGROUND</h2>
+        <div class="educations">
+            <div class="education">
+                <h3>AGILITY AFRICA</h3>
+                <p>Girls in Technology (October 2020)</p> 
+            </div> <!--/ service-->
+            <div class="education">
+                <h3>NATIONAL YOUTH SERVICE CORP</h3>
+                <p>NYSC (2020)</p> 
+            </div> <!--/ service-->
+            <div class="education">
+                <h3>YABA COLLEGE OF TECHNOLOGY</h3>
+                <p>HND Statistics (2019)</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">Portfolio</h2>
+        <p class="section__subtitle section__subtitle--work">Some of my works</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="https://agusta9775.github.io/Food/" target="_blank" class="portfolio__item">
+                <img src="images/food.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href=" https://agusta9775.github.io/Traffic/" target="_blank" class="portfolio__item">
+                <img src="images/Traffic.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="https://agusta9775.github.io/Survey/." target="_blank" class="portfolio__item">
+                <img src="images/survey.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href=" https://agusta9775.github.io/Html-Task2/" target="_blank" class="portfolio__item">
+                <img src="images/piggy.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="https://agusta9775.github.io/Site/." target="_blank" class="portfolio__item">
+                <img src="images/site.png" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+    <section class="contact--section" id="my-contact--section">
+        <div class="section__contact--title">
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="section__contact--form">
+
+            <form method="post">
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="myTextarea">Project Details</label>
+                <textarea id="content" name="content" cols="85" rows="8"></textarea>
+
+                <button type="submit" id="submit-btn" class="btn">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.facebook.com/Chijioke.Mbagwu.7" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/augusta-mbagwu-a0a510174/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/jokesydiva" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Agusta9775" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
